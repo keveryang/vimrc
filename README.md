@@ -16,21 +16,24 @@ open a doc with vim and run command:
 ## USEAGE
 
 Search file in vim:
-'\'+'f'
+"\"+"f"
 
 Search symbol in vim:
-'Ctrl+F' and 'Enter'
+'Ctrl+f' and 'Enter'
 
 Select target with:
 'Ctrl+j' and 'Ctrl+k'
 
-and jump to with:
+and jump to taget with:
 'Enter'
 
 Jump back with:
 'Ctrl+o'
 
-## Troubleshot
+To enable ctags for a project, please put a empty ".root" file in projet
+root directory, then the vim will generate the Ctags automatically.
+
+## Troubleshoot
 
 Debian 9:
 
