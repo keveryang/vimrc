@@ -7,7 +7,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-open a doc wit vim and run:
+open a doc with vim and run command:
 
 ```
 :PlugInstall
@@ -29,3 +29,23 @@ and jump to with:
 
 Jump back with:
 'Ctrl+o'
+
+## Troubleshot
+
+Debian 9:
+
+```
+Error: LeaderF requires vim compiled with +python or +python3
+```
+
+Need install vim plugin to fix
+
+```
+sudo apt install vim-nox
+```
+
+Another options is:
+
+```
+sudo apt install vim-gnome-py2
+```
